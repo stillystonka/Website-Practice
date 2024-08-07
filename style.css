@@ -75,6 +75,7 @@ button {
     border-radius: 10px;
     height: 50px;
     width: 130px;
+    border: none;
 }
 
 .big-info {
@@ -120,6 +121,7 @@ button {
     background-color: hsl(0 0 90);
     padding: 100px 250px;
     text-align: center;
+    row-gap: 16px;
 }
 
 .quote {
@@ -134,3 +136,38 @@ button {
     text-align: end;
 }
 
+.section-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 220px;
+    padding: 50px;
+}
+
+.container {
+    background-color: #3882F6;
+    border-radius: 10px;
+    width: 1000px;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.call {
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+}
+
+.sub-call {
+    color: white;
+}
+
+.last-signup {
+    margin: 40px;
+    padding: 10px;
+    border: 2px solid white;
+}
